@@ -1,4 +1,4 @@
-package lessons.lesson07/*Задания для цикла for
+package lessons.lesson07.homeworks/*Задания для цикла for
 Прямой диапазон
  */
 fun t1() {
