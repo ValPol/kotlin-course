@@ -176,8 +176,10 @@ fun createAcronym(phrase: String): String {
     return acronym
 }
 
-/**
+
 fun main() {
     println(createAcronym("Котлин лучший язык программирования"))
+    val s = "Привет, мир!"
+    println(s)
+    println("Длина строки: ${s.length}")
 }
-        */
