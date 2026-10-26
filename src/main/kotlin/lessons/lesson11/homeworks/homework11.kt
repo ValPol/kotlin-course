@@ -68,3 +68,29 @@ fun processList(strings: List<String?>) {
         println(str)
     }
 }
+
+fun main() {
+
+    // multiplyByTwo
+    println("multiplyByTwo(7) = ${multiplyByTwo(7)}")
+
+    // isEven
+    println("isEven(4) = ${isEven(4)}")
+    println("isEven(5) = ${isEven(5)}")
+
+    // printNumbersUntil
+    println("printNumbersUntil(5):")
+    printNumbersUntil(5)
+    println("printNumbersUntil(-1) — ничего не выводит:")
+    printNumbersUntil(-1)
+
+    // findFirstNegative
+    println("findFirstNegative([3, 0, -2, -5]) = ${findFirstNegative(listOf(3, 0, -2, -5))}")
+    println("findFirstNegative([1, 2, 3]) = ${findFirstNegative(listOf(1, 2, 3))}")
+
+    // processList
+    println("processList([\"a\", \"b\", null, \"c\"]) — остановится на null:")
+    processList(listOf("a", "b", null, "c"))
+    println("processList([\"x\", \"y\", \"z\"]):")
+    processList(listOf("x", "y", "z"))
+}
